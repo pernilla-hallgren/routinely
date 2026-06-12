@@ -1,0 +1,35 @@
+// ─── Routinely Global Styles ───────────────────────────────────────────────
+// Import this once at the app root (apps/web/src/main.tsx).
+// Component modules import _tokens.scss directly for SCSS variables.
+
+@use 'tokens';
+@use 'animations';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  min-height: 100dvh;
+}
+
+// Sunrise background utility — used by child view and onboarding
+.bg-sunrise {
+  background-image: linear-gradient(
+    to bottom,
+    oklch(0.93 0.05 230),
+    oklch(0.95 0.06 90) 55%,
+    oklch(0.93 0.07 50)
+  );
+}

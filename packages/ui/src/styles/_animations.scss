@@ -1,0 +1,52 @@
+// ─── Routinely Animations ──────────────────────────────────────────────────
+// Global keyframes and animation utility classes.
+// These are used across both the ui package and the web app.
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50%       { transform: translateY(-10px) translateX(8px); }
+}
+
+@keyframes float-slower {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-14px); }
+}
+
+@keyframes pop-check {
+  0%   { transform: scale(0.6); opacity: 0; }
+  60%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.4; transform: scale(0.9); }
+  50%       { opacity: 1;   transform: scale(1.1); }
+}
+
+@keyframes bounce-in {
+  0%   { transform: scale(0.8); opacity: 0; }
+  70%  { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+
+// Utility classes
+.animate-float-slow    { animation: float-slow    8s  ease-in-out infinite; }
+.animate-float-slower  { animation: float-slower  11s ease-in-out infinite; }
+.animate-pop-check     { animation: pop-check     0.45s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.animate-spin-slow     { animation: spin-slow     40s linear infinite; }
+.animate-twinkle       { animation: twinkle       3s  ease-in-out infinite; }
+.animate-bounce-in     { animation: bounce-in     0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+
+// Respect reduced motion
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

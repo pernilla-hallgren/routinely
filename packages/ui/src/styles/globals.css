@@ -1,0 +1,70 @@
+:root {
+  /* Colours — sunrise palette */
+  --color-sky: #E8F4FD;
+  --color-yellow: #FFD166;
+  --color-peach: #FFB347;
+  --color-orange: #FF8C42;
+  --color-red: #FF6B6B;
+  --color-green: #06D6A0;
+  --color-purple: #A8DADC;
+  --color-white: #FFFFFF;
+  --color-bg: #FFF9F0;
+  --color-text: #2D2D2D;
+  --color-text-light: #6B6B6B;
+
+  /* Timer colours */
+  --timer-green: #06D6A0;
+  --timer-yellow: #FFD166;
+  --timer-orange: #FF8C42;
+  --timer-red: #FF6B6B;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* Typography */
+  --font-display: 'Nunito', 'Fredoka One', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-3xl: 2.5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 16px rgba(0,0,0,0.12);
+  --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
