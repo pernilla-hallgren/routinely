@@ -1,0 +1,55 @@
+{
+  "common": {
+    "next": "Nästa",
+    "back": "Tillbaka",
+    "done": "Klar",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "save": "Spara"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Nu bygger vi morgonen tillsammans!",
+      "subtitle": "Sätt dig med ditt barn och skapa en rolig rutin i några enkla steg."
+    },
+    "who": "Vem är rutinen för?",
+    "name": "Namn",
+    "namePlaceholder": "t.ex. Ellie",
+    "pickBuddy": "Välj en kompis",
+    "steps": {
+      "title": "Vad gör du varje morgon?",
+      "subtitle": "Tryck tillsammans för att lägga till steg. Du kan ändra senare."
+    },
+    "ready": {
+      "title": "{{name}} är redo att lysa!",
+      "badge": "Samla poäng varje morgon",
+      "start": "Starta våra morgnar"
+    },
+    "setupButton": "Jag är vuxen — ställ in"
+  },
+  "child": {
+    "hi": "Hej, {{name}}!",
+    "goodMorning": "God morgon!",
+    "step": "Steg {{index}} av {{total}}",
+    "didIt": "Jag klarade det!",
+    "yay": "Jippi!",
+    "allDone": "Allt klart!",
+    "amazing": "Fantastiskt, {{name}}!",
+    "finished": "Du klarade hela din morgonrutin.",
+    "pointsToday": "+{{points}} poäng idag",
+    "progress": "{{progress}}% av din morgon klar",
+    "doAgain": "Gör det igen"
+  },
+  "parent": {
+    "title": "Förälderinställningar",
+    "subtitle": "Anpassa rutinen",
+    "back": "Tillbaka till rutinen",
+    "profile": "Barnprofil",
+    "thisWeek": "Den här veckan",
+    "reward": "Belöningsmål",
+    "timer": "Tid per steg",
+    "steps": "Rutinsteg",
+    "addStep": "Lägg till ett steg",
+    "save": "Spara & starta rutinen"
+  }
+}

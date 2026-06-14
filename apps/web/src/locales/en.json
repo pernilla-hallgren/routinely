@@ -1,0 +1,55 @@
+{
+  "common": {
+    "next": "Next",
+    "back": "Back",
+    "done": "Done",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "save": "Save"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "Let's build your morning together!",
+      "subtitle": "Sit with your child and set up a fun routine in a few easy steps."
+    },
+    "who": "Who is this routine for?",
+    "name": "Name",
+    "namePlaceholder": "e.g. Ellie",
+    "pickBuddy": "Pick a buddy",
+    "steps": {
+      "title": "What do you do each morning?",
+      "subtitle": "Tap together to add steps. You can change these later."
+    },
+    "ready": {
+      "title": "{{name}} is ready to shine!",
+      "badge": "Earn points every morning",
+      "start": "Start our mornings"
+    },
+    "setupButton": "I'm a grown-up — set it up"
+  },
+  "child": {
+    "hi": "Hi, {{name}}!",
+    "goodMorning": "Good morning!",
+    "step": "Step {{index}} of {{total}}",
+    "didIt": "I did it!",
+    "yay": "Yay!",
+    "allDone": "All done!",
+    "amazing": "Amazing, {{name}}!",
+    "finished": "You finished your whole morning routine.",
+    "pointsToday": "+{{points}} points today",
+    "progress": "{{progress}}% of your morning done",
+    "doAgain": "Do it again"
+  },
+  "parent": {
+    "title": "Parent Setup",
+    "subtitle": "Customise the routine",
+    "back": "Back to routine",
+    "profile": "Child profile",
+    "thisWeek": "This week",
+    "reward": "Reward goal",
+    "timer": "Time per step",
+    "steps": "Routine steps",
+    "addStep": "Add a step",
+    "save": "Save & start routine"
+  }
+}
