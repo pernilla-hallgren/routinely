@@ -1,0 +1,45 @@
+:root {
+  --color-background: oklch(0.985 0.02 90);
+  --color-foreground: oklch(0.36 0.06 50);
+  --color-card: oklch(1 0 0);
+  --color-border: oklch(0.92 0.03 80);
+  --color-primary: oklch(0.72 0.16 50);
+  --color-primary-foreground: oklch(0.99 0.01 90);
+  --color-secondary: oklch(0.93 0.05 80);
+  --color-muted: oklch(0.96 0.02 85);
+  --color-muted-foreground: oklch(0.58 0.04 60);
+  --color-sun: oklch(0.85 0.16 95);
+  --color-cloud: oklch(0.99 0.01 90);
+  --font-sans: "Nunito", sans-serif;
+  --radius-full: 9999px;
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  min-height: 100dvh;
+}
+
+.bg-sunrise {
+  background-image: linear-gradient(
+    to bottom,
+    oklch(0.93 0.05 230),
+    oklch(0.95 0.06 90) 55%,
+    oklch(0.93 0.07 50)
+  );
+}
