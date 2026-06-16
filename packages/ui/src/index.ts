@@ -3,4 +3,4 @@
 
 // export { Button } from './components/Button'
 // export { CountdownRing } from './components/CountdownRing'
-// export { SkyBackground } from './components/SkyBackground'
+export { SkyBackground } from "./components/SkyBackground";
