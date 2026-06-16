@@ -2,9 +2,12 @@
   "name": "routinely",
   "private": true,
   "scripts": {
-    "dev": "pnpm --filter web dev",
-    "storybook": "pnpm --filter ui storybook",
-    "build": "pnpm --filter ui build && pnpm --filter web build",
+    "dev": "node scripts/dev-cli.js",
+    "build": "pnpm --filter @routinely/ui build && pnpm --filter web build",
     "test": "pnpm --filter web cypress:run"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0",
+    "inquirer": "^12.0.0"
   }
 }
